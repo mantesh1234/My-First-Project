@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
+a {
+  color: #282425 !important;
+}
+
+ul.nav.nav-tabs > li {
+  display: inline-block;
+  line-height: 50px;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+ul.nav.nav-tabs > li a {
+  display: block;
+  padding: 15px;
+  color: #282425 !important;
+}
+
+ul.nav.nav-tabs > li a:hover,
+ul.nav.nav-tabs > li:hover {
+  background: #FB282F;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+ul.nav.nav-tabs > li a.active {
+  background: #282425;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #f2cc0f;
+  color: #8cbf3f;
+  font-size: 1.5em;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+  color: #f2cc0f;
+  font-family: 'Henny Penny', cursive;
+}
+
+body .img-fluid {
+  width: 14%;
+  height: auto;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+  body .img-fluid {
+    width: 20%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 100px) {
+  body .img-fluid {
+    width: 25%;
+    height: auto;
+  }
+}
+
+h1.koteret2 {
+  color: #9453a6;
+  text-decoration: underline;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+}
+
+.change {
+  color: #9453a6;
+}
+
+footer {
+  background-color: #0d0d0d;
+  text-align: center;
+  font-family: 'pattaya', sans-serif;
+}
+
+@media only screen and (max-width: 1040px) and (min-width: 951px) {
+  .mapa {
+    width: 750px;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 610px) {
+  .mapa {
+    width: 550px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 609px) and (min-width: 300px) {
+  .mapa {
+    width: 350px;
+    height: 300px;
+    font-size: 14px;
+  }
+}
+
+.spin {
+  width: 80%;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.spin img {
+  height: 100%;
+  width: 100%;
+}
+
+.spin .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.spin .carousel {
+  height: 100%;
+}
+
+.spin #carouselExampleControls {
+  width: 100%;
+}
+
+.spin .carousel-inner {
+  height: 100%;
+}
+
+a {
+  color: #0d0d0d !important;
+  font-family: 'Henny Penny', cursive;
+  font-size: 36px;
+}
+
+ul.nav.nav-tabs > li {
+  display: inline-block;
+  line-height: 50px;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+ul.nav.nav-tabs > li a {
+  display: block;
+  padding: 10px;
+  color: #8cbf3f !important;
+}
+
+ul.nav.nav-tabs > li a:hover,
+ul.nav.nav-tabs > li:hover {
+  background: #FB282F;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+ul.nav.nav-tabs > li a.active {
+  background: #282425;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.about {
+  background-color: #f2cc0f;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 970px) {
+  .about p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 969px) and (min-width: 845px) {
+  .about p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 844px) and (min-width: 500px) {
+  .about p {
+    font-size: 14px;
+  }
+}
+
+.about .koteret2 {
+  color: #9453a6;
+}
+
+.about h2 {
+  color: #9453a6;
+  text-decoration: underline;
+  font-family: 'Pattaya', sans-serif;
+  margin-left: 20px;
+}
+
+.about h3 {
+  color: #9453a6;
+  font-size: 28px;
+  font-family: 'Pattaya', sans-serif;
+  text-decoration: underline;
+}
+
+.about .pic1 {
+  width: 17%;
+  height: auto;
+}
+
+.koteret {
+  font-family: 'Pattaya', sans-serif;
+  text-decoration: underline;
+}
+
+.name1 {
+  font-size: 20px;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.conta {
+  font-family: 'roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.default {
+  font-family: 'pattaya', sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  color: #9453a6;
+  font-size: 28px;
+  font-family: 'Pattaya', sans-serif;
+  text-decoration: underline;
+}
+
+label {
+  font-family: 'pattaya', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: #9453a6;
+}
+
+p {
+  font-size: 14px;
+  color: #9453a6;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 970px) {
+  p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 969px) and (min-width: 845px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 844px) and (min-width: 710px) {
+  p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 709px) and (min-width: 680px) {
+  p {
+    font-size: 10.30px;
+  }
+}
+
+@media only screen and (max-width: 679px) and (min-width: 300px) {
+  p {
+    font-size: 9.3px;
+  }
+}
+
+p h3 {
+  color: #9453a6;
+  font-size: 22px;
+  font-family: 'Pattaya', sans-serif;
+}
+
+.one {
+  color: yellow;
+}
+
+.cards {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (550px)[2];
+      grid-template-rows: repeat(2, 550px);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  background-color: #f2cc0f;
+  grid-gap: 5px;
+  font-size: 13px;
+  padding: 3px;
+}
+
+.cards img {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .cards h4 {
+    font-size: 14px;
+    font-family: 'Pattaya', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 499px) and (min-width: 200px) {
+  .cards {
+    font-size: 1px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+  .cards {
+    font-size: 6.5px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  .cards {
+    font-size: 10px;
+  }
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+/*# sourceMappingURL=main.css.map */
